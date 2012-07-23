@@ -1,6 +1,6 @@
 /* vim: set et ts=4 sw=4 sts=4 smartindent: */
 /*
- * Copyright (c) 2011 Benjamin Althues <benjamin@babab.nl>
+ * Copyright (c) 2011-2012 Benjamin Althues <benjamin@babab.nl>
  *
  * Permission to use, copy, modify, and distribute this software for any
  * purpose with or without fee is hereby granted, provided that the above
@@ -19,8 +19,8 @@
 // @namespace      babab.nl
 // @description    Disable comments from YouTube per default, with an option to (temporarily) display them for a single video.
 // @version	       1.0
-// @license	       ISC License; http://www.opensource.org/licenses/ISC 
-// @copyright      2011, Benjamin Althues (http://babab.nl)
+// @license	       ISC License; http://www.opensource.org/licenses/ISC
+// @copyright      2011-2012, Benjamin Althues (http://babab.nl)
 // @include        http://www.youtube.*/*
 // @include        http://youtube.*/*
 // @include        https://www.youtube.*/*
@@ -29,7 +29,7 @@
 
 (function() {
     var message = 'Comments are disabled.';
-    var link= '<a id="gmnc_link" href="#watch-discussion"' + 
+    var link= '<a id="gmnc_link" href="#watch-discussion"' +
         '>Click to view them for this video</a>';
     var elem = document.getElementById("watch-discussion");
     if (elem) {
